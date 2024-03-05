@@ -1,0 +1,275 @@
+body {
+  backdrop-filter: opacity(0.5);
+  position: relative;
+  &::before {
+    content: '';
+    background-image: url(./../img/gif/Background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: lighten;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.commonHeading {
+  font-size: 25px;
+  font-family: RETROTECH;
+  letter-spacing: 2.5px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  @include md {
+    font-size: 40px;
+  }
+}
+
+.commonBtn {
+  height: 40px;
+  border: 0;
+  font-size: 15px;
+  color: #141723;
+  font-weight: 600;
+  background-color: #FFEA00;
+  border-bottom: 4px solid #B0A200;
+  border-radius: 8.5px;
+  padding: 5px 30px;
+}
+
+.heroSection {
+  min-height: 100vh;
+  padding-top: 155px;
+  overflow: hidden;
+  & .globeImg {
+    position: absolute;
+    mix-blend-mode: lighten;
+    opacity: 0.5;
+    top: 50%;
+    right: -250px;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+  & .endTitle {
+    font-family: RETROTECH;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-bottom: 15px;
+    @include md {
+      font-size: 30px;
+    }
+  }
+  & .timeeeBoxx {
+    @include max-xs {
+      --bs-gutter-x: 0.7rem;
+    }
+  }
+  & .timeBoxes {
+    display: flex;
+    align-items: center;
+    gap: 7.5px;
+    @include max-xs {
+      gap: 5.5px;
+    }
+    & .timeBox {
+      height: 30.56px;
+      width: 30.56px;
+      border-radius: 5px;
+      border: 1px solid #D9D9D9;
+      font-size: 22px;
+      color: white;
+      font-weight: 200;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include md {
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+      }
+    }
+  }
+  & .dateTxt {
+    font-size: 11.46px;
+    color: #D9D9D9;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    @include md {
+      font-size: 15px;
+    }
+  }
+  & .heroPara {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #D9D9D9;
+    margin-bottom: 30px;
+    & span {
+      font-weight: 600;
+    }
+    @include md {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.selectPaymentBox {
+  width: 354px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  padding: 12px;
+  & .blackBox {
+    background-color: #141723;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    & .raised {
+      font-size: 15px;
+      color: white;
+      font-weight: 600;
+    }
+    & .stage {
+      font-size: 12px;
+      color: white;
+      font-weight: 600;
+      & span {
+        color: #FF3C3C;
+      }
+    }
+    & .progressDiv {
+      margin-top: 4px;
+      margin-bottom: 5px;
+      & .progress {
+        border-radius: 20px;
+        height: 12px;
+        background-color: #363B4B;
+        & .progress-bar {
+          border-radius: 20px;
+          background: linear-gradient(322deg, #7da2ff 46%, white 57%);
+          position: relative;
+          &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('./../img/progressTexture.png');
+          }
+        }
+      }
+    }
+    & .crrPrz {
+      font-size: 10px;
+      color: white;
+      & span {
+        color: #FF3C3C;
+      }
+    }
+  }
+  & .youPayBox {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    & .payTitle {
+      font-size: 12px;
+      font-weight: 600;
+      color: #000;
+    }
+    & .inpDiv {
+      & input {
+        font-size: 30px;
+        color: #9EA3AE;
+        font-weight: 600;
+        border: 0 !important;
+        padding: 0 !important;
+      }
+    }
+    & .dropBox {
+      & .dropdown {
+        & .dropdown-toggle {
+          background-color: #90C0FF;
+          border: 0;
+          border-radius: 50px;
+          color: #000;
+          font-size: 12px;
+          font-weight: 600;
+          height: 30px;
+          width: 136px;
+          &.receiveBox {
+            width: 96px;
+            background-color: #DFDFDF;
+            & img {
+              height: 16.35px;
+              object-fit: contain;
+            }
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  & .referralBox {
+    background-color: #fff;
+    padding: 12px 15px;
+    border-radius: 10px;
+    & .form-check-input {
+      border: 1px solid #000;
+      &:checked {
+        background-color: #90C0FF;
+        border-color: #90C0FF;
+        background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+      }
+    }
+    & .form-check-label {
+      color: #9EA3AE;
+      font-size: 12px;
+      cursor: pointer;
+    }
+  }
+  & .selPayMehBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90C0FF;
+    color: #000;
+    height: 41px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 12px;
+    border-bottom: 4px solid #77A4DE;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.25) !important;
+  }
+}
+
+
+.header {
+  position: fixed;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  & .headerInner {
+    height: 60px;
+    border-radius: 10px;
+    width: 100%;
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 5px 10px rgba(0,0,0,.5) !important;
+  }
+}
