@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtBdIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtBd.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtRgIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtRgIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtSmBdIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtSmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtLtIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtLtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtMd.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtMd.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtMdIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtMdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtThIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtTh.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtTh.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtLt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtLt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtRg.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtRg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtSmBd.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtSmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-SmBd.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-SmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtUltLtIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtUltLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-LtIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ThIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-XCompUltLt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-XCompUltLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-Lt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-XCompUltLtIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-XCompUltLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-Th.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-SmBdIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-SmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-Md.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-MdIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExtUltLt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExtUltLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-RgIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-RgIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-Rg.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp VF TRIAL';
+    src: url('GeogrotesqueSharpVFTRIAL-Default.woff2') format('woff2'),
+        url('GeogrotesqueSharpVFTRIAL-Default.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GeogrotSharp TRIAL';
+    src: url('GeogrotSharpTRIAL-ExpUltLtIt.woff2') format('woff2'),
+        url('GeogrotSharpTRIAL-ExpUltLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+

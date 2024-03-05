@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompRg.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompRg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompMdIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompMdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompMd.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompMd.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompUltLt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompUltLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideRgIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideRgIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompThIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompSmBdIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompSmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideRg.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideRg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompTh.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompTh.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompSmBd.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompSmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompRgIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompRgIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompUltLtIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompUltLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideSmBd.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideSmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideSmBdIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideSmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideThIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideUltLtIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideUltLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompBdIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideUltLt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideUltLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-WideTh.woff2') format('woff2'),
+        url('GeogrotesqueSharp-WideTh.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompBd.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompLt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompLt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-XCompLtIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-XCompLtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-UltLt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-UltLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-SmBd.woff2') format('woff2'),
+        url('GeogrotesqueSharp-SmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-UltLtIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-UltLtIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-SmBdIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-SmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-ThIt.woff2') format('woff2'),
+        url('GeogrotesqueSharp-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geogrotesque Sharp';
+    src: url('GeogrotesqueSharp-Th.woff2') format('woff2'),
+        url('GeogrotesqueSharp-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
