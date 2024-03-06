@@ -1,48 +1,326 @@
 body{
-  font-family: 'Geogrotesque Sharp';
+    font-family: 'Geogrotesque Sharp';
+    // background-color: #1E222D;
+}
+
+.heading{
+    color: white;
+    font-family: 'RETROTECH';
+    // font-weight: 500;
+    font-size: 20.37px;
+    line-height: 16.99px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    @include sm{
+    }
+    @include md{
+        font-size: 35px;
+        line-height: 29.19px;
+    } 
+    @include lg{
+
+    } 
+    @include xl{
+
+    } 
+    @include xxl{
+
+    }
+}
+
+.subheading{
+    color: white;
+    // font-weight: 500;
+    font-size: 11.64px;
+    line-height: 15.13px;
+    letter-spacing: 2px;
+    & .break{
+        display: none;
+        @include md{
+            display: block;
+        }
+    }
+    @include sm{
+    }
+    @include md{
+        font-size: 20px;
+        line-height: 26px;
+    } 
+    @include lg{
+
+    } 
+    @include xl{
+
+    } 
+    @include xxl{
+
+    }
 }
 
 .dambleUniqueSection{
-  & .heading{
-      color: white;
-      font-family: 'RETROTECH';
-      font-weight: 500;
-      font-size: 35px;
-      line-height: 29.19px;
-  }
-  & .subheading{
-      color: white;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 26px;
-      letter-spacing: 10%;
-  }
-  & .box{
-      border: 1px solid #77787C;
-      border-radius: 20px;
-      padding: 15px 28px;
-      height: 100%;
-      & .icon{
-          width: 33px;
-          height: 42px;
-          & img{
-              width: 100%;
-              height: 100%;
-              object-fit: contain;
-          }
-      }
-      & .cardHeading{
-          font-size: 14px;
-          font-weight: 600;
-          line-height: 18.2px;
-          color: white;
-      }
-      & .cardSubHeading{
-          font-size: 12px;
-          font-weight: 500;
-          line-height: 15.6px;
-          color: white;
-          margin-top: 13px;
-      }
-  }
+    & .box{
+        border: 1px solid #77787C;
+        border-radius: 20px;
+        padding: 15px 28px;
+        height: 100%;
+        & .icon{
+            width: 33px;
+            height: 42px;
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        & .cardHeading{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 18.2px;
+            color: white;
+        }
+        & .cardSubHeading{
+            font-size: 12px;
+            // font-weight: 500;
+            line-height: 15.6px;
+            color: white;
+            margin-top: 13px;
+        }
+    }
+    & .buyBtn{
+        background-color: #FFEA00;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 8.5px;
+        width: 146px;
+        height: 37px;
+    }
+}
+
+.tokenAllocationSection{
+    & .tokenHead{
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 32px;
+        &.tokenheadPadding{
+            margin-right: 40px;
+        }
+        & span{
+            background-color: #CCFF00;
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            border-radius: 3px;
+            margin-right: 35px;
+        }
+    }
+    & .tokenList{
+        font-size: 16.37px;
+        font-weight: 600;
+        color: white;
+        @include md{
+        } 
+        @include lg{
+            font-size: 17px;
+        } 
+        @include xl{
+
+        } 
+        @include xxl{
+
+        }
+        & span{
+            position: relative;
+            display: inline-block;
+            font-size: 14px;
+            width: 25px;
+            height: 25px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px; 
+            @include md{
+            } 
+            @include lg{
+                margin-right: 21px; 
+                font-size: 15px;
+            } 
+            @include xl{
+    
+            } 
+            @include xxl{
+    
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                transform: rotate(45deg);
+                top: 0;
+                left: 0;
+                width: 25px;
+                height: 25px;
+                background-color: #2E3443;
+                border-radius: 6px;
+                z-index: -1;
+                @include md{
+                } 
+                @include lg{
+                } 
+                @include xl{
+        
+                } 
+                @include xxl{
+        
+                }
+            }
+        }
+    }
+    & .tokenBox{
+        background-color: #2E3443;
+        border-radius: 5px;
+        border: 1px solid white;
+        width: 100px;
+        height: 40px;  
+        font-size: 16.37px; 
+        font-weight: 600;
+        color: white;
+        @include md{
+        } 
+        @include lg{
+            font-size: 17px;
+        } 
+        @include xl{
+
+        } 
+        @include xxl{
+
+        }
+    }
+    & .disk{
+        // width: 275px;
+        // height: 275px;
+            display: none;
+        @include sm{
+        }
+        @include md{
+        } 
+        @include lg{
+            width: 250px;
+            height: 250px;
+            display: block;
+
+        } 
+        @include xl{
+            width: 300px;
+            height: 300px;
+
+        } 
+        @include xxl{
+
+        }
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.tokenSaleSection{
+    & .salebox{
+        border: 1px solid #77787C;
+        border-radius: 35px;
+        background-color: #1E222D;
+        background-image: none;
+        padding: 19px;
+        @include sm{
+        }
+        @include md{
+        } 
+        @include lg{
+            background-image: url(../../assets/img/tokenSaleBg.png);
+            background-repeat: no-repeat;
+            background-position: top 0 right 0;
+            background-size: contain;
+            padding: 73px;
+    
+        } 
+        @include xl{
+    
+        } 
+        @include xxl{
+    
+        }
+        & .saleHead{
+            font-size: 15.14px;
+            font-weight: 600;
+            color: white;
+            @include sm{
+            }
+            @include md{
+            } 
+            @include lg{
+                font-size: 17px;
+            } 
+            @include xl{
+        
+            } 
+            @include xxl{
+        
+            }
+            & span{
+                width: 8px;
+                height: 8px;
+                background-color: #CCFF00;
+                border-radius: 3px;
+                margin-right: 30px;
+                display: inline-block;
+            }
+        }
+        & .saleHeadBox{
+            background-color: #2E3443;
+            border-radius: 5px;
+            font-size: 15.14px;
+            font-weight: 600;
+            padding: 10px 18px;
+            color: white;
+            display: inline-block;
+            @include sm{
+            }
+            @include md{
+            } 
+            @include lg{
+                font-size: 17px;
+            } 
+            @include xl{
+        
+            } 
+            @include xxl{
+        
+            }
+        }
+    }
+}
+
+.whyDambleSection{
+    & .numberBox{
+        border: 1px solid #77787C;
+        padding: 15px 28px;
+        border-radius: 15px;
+        & .number{
+            font-size: 30px;
+            font-weight:700;
+            background: -webkit-linear-gradient(#616974, #FFFFFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        & .numbertxt{
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+        }
+    }
 }
